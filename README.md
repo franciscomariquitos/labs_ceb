@@ -3,6 +3,7 @@ dados experimentais da característica de transferência (exportados para CSV). 
 tradicional de estimar o ganho com base em apenas dois pontos (pares de entrada-saída)
 da função de transferência muitas vezes não fornece uma estimativa precisa, principalmente
 devido ao ruído e possíveis distorções presentes nos dados reais.
+
 O algoritmo apresentado foca-se nos zeros do sinal de entrada (aproveitando a simetria),
 especificamente nos índices onde a derivada da função de transferência sugere um comportamento linear (ou seja, dy/dx é diferente de 0), minimizando a interferência das zonas de saturação.
 Para cada zero-crossing identificado, o algoritmo extrai uma “janela” de valores de entrada e
